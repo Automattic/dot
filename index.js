@@ -3,11 +3,7 @@
  * Module dependencies.
  */
 
-try {
-  var type = require('type');
-} catch(e){
-  var type = require('type-component');
-}
+var type = require('type-component');
 
 /**
  * Gets a certain `path` from the `obj`.
