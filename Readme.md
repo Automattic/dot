@@ -24,9 +24,9 @@ var obj = {
 };
 
 dot.get(obj, 'name.first'); // tobi
-dot.get(obj, 'name.1.id'); // 2
+dot.get(obj, 'pets.1.id'); // 2
 dot.parent(obj, 'name.first'); // obj.name
-dot.set(obj, 'name.1.name', 'Jane');
+dot.set(obj, 'pets.1.name', 'Jane');
 ```
 
 ## API
